@@ -17,6 +17,8 @@ The three datasets in our study can be found in [ACDC](https://ieee-dataport.org
 ##4.Train/Test
 Run the train script on synapse dataset. The batch size we used is 24. If you do not have enough GPU memory, the bacth size can be reduced to 12 or 6 to save memory.
 Train
-'''python
+```python
+def hello():
+    print("Hello, Markdown")
 python train.py --dataset Synapse --root_path your DATA_DIR --max_epochs 400 --output_dir your OUT_DIR  --img_size 224 --base_lr 0.05 --batch_size 24
 Test
