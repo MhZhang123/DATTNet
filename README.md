@@ -13,21 +13,8 @@ Please prepare an environment with Ubuntu 20.04, PyTorch 1.11.0+cu113 and CUDA 1
 
 ## 3. Datasets
 The three datasets in our study can be found:
-|datasets|URL|
-|ACDC|s|
-|Synapse|s|
-|kvasir-SEG|s|
-
-“`markdown
-| 列1    | 列2    | 列3   |
-|——|——|—–|
-| 内容1  | 内容2  | 内容3 |
-| 内容4  | 内容5  | 内容6 |
-“`
-
-
-| 左对齐 | 右对齐 | 居中对齐 |
-| :-----| ----: | :----: |
-| 单元格 | 单元格 | 单元格 |
-| 单元格 | 单元格 | 单元格 |
-
+| datasets | URL |
+| :-----| ----: |
+| ACDC | https://ieee-dataport.org/documents/automatic-cardiac-diagnosis-challenge |
+| Synapse | 单元格 |
+| kvasir-SEG | 单元格 |
