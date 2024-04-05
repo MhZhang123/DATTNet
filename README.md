@@ -15,7 +15,7 @@ Please prepare an environment with Ubuntu 20.04, PyTorch 1.11.0+cu113 and CUDA 1
 The three datasets in our study can be found in [ACDC](https://ieee-dataport.org/documents/automatic-cardiac-diagnosis-challenge), [Synapse](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789) and [Kvasir-SEG](https://datasets.simula.no/kvasir-seg/).
 
 ## 4.Train/Test
-Run the train script on synapse dataset. The batch size we used is 24. If you do not have enough GPU memory, the bacth size can be reduced to 12 or 6 to save memory.
+Run the train script on synapse dataset. The batch size we used is 8.
 
 Train
 ```python
