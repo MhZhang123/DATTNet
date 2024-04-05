@@ -12,9 +12,5 @@ Please prepare an environment with Ubuntu 20.04, PyTorch 1.11.0+cu113 and CUDA 1
 ![image](https://github.com/MhZhang123/DATTNet/blob/main/figure/Fig1.png)
 
 ## 3. Datasets
-The three datasets in our study can be found in [ACDC](https://ieee-dataport.org/documents/automatic-cardiac-diagnosis-challenge), Synapse and Kvasir-SEG.
-| datasets | URL |
-| :-----| ----: |
-| ACDC | [ACDC](https://ieee-dataport.org/documents/automatic-cardiac-diagnosis-challenge) |
-| Synapse | 单元格 |
-| kvasir-SEG | 单元格 |
+The three datasets in our study can be found in [ACDC](https://ieee-dataport.org/documents/automatic-cardiac-diagnosis-challenge), [Synapse](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789) and [Kvasir-SEG](https://datasets.simula.no/kvasir-seg/).
+
