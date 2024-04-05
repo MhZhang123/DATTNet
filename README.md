@@ -10,3 +10,12 @@ Please prepare an environment with Ubuntu 20.04, PyTorch 1.11.0+cu113 and CUDA 1
 
 ## 2. The overview of DATTNet<br />
 ![image](https://github.com/MhZhang123/DATTNet/blob/main/figure/Fig1.png)
+
+## 3. Datasets
+The three datasets in our study can be found:
+|datasets|URL|
+|ACDC|s|
+|Synapse|s|
+|kvasir-SEG|s|
+
+
