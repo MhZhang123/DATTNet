@@ -19,10 +19,10 @@ Run the train script on synapse dataset. The batch size we used is 24. If you do
 
 Train
 ```python
-    python train.py --dataset Synapse --root_path your DATA_DIR --max_epochs 400 --output_dir your OUT_DIR  --img_size 224 --base_lr 0.05 --batch_size 24
+    python train.py --dataset Synapse  --max_epochs 200   --img_size 224 --base_lr 0.001 --batch_size 8
 ```
 
 Test
 ```python
-    python train.py --dataset Synapse --root_path your DATA_DIR --max_epochs 400 --output_dir your OUT_DIR  --img_size 224 --base_lr 0.05 --batch_size 24
+    python test.py --dataset Synapse  --output_dir your OUT_DIR  --img_size 224
 ```
