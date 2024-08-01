@@ -15,6 +15,8 @@ Please use the following code to install the required Python packages.
 ```
 ## 2. Datasets
 The three datasets in our study can be found in [ACDC](https://ieee-dataport.org/documents/automatic-cardiac-diagnosis-challenge), [Synapse](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789) and [Kvasir-SEG](https://datasets.simula.no/kvasir-seg/).
+After downloading the dataset, you can split ACDC and Synapse into training and validation sets based on the serial numbers in /dataset_list.
+The Kvasir-SEG dataset has been officially divided into a training set and a validation set. Example data can be found in the dataset/Kvasir-SEG folder.
 
 ## 3.Train/Test
 Run the train script on synapse dataset. The batch size we used is 8.
